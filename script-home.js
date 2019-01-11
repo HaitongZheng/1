@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+  $("#construction").hide();
   $( "#cross" ).click(function() {
      $("#tags").fadeToggle();
      $(".information").fadeToggle("slow", "linear");
@@ -146,6 +146,9 @@ $("#work12").mouseover(function(){
 });
 $("#work12").mouseout(function(){
   $(this).css("opacity" , "1")
+});
+$("#work12").click(function(){
+  $("#construction").toggle();
 });
 });
 
