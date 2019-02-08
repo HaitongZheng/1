@@ -161,13 +161,12 @@
   transform: translateY(36.5vw);
   margin-left: 1.2vw;
   z-index:2;
+  font-family: 'SportingGrotesque-Regular', sans-serif;
 }
 #ABOUT{
-  font-family: 'SportingGrotesque-Regular', sans-serif;
   margin-left: 2.2vw;
 }
 #CONTACT{
-  font-family: 'SportingGrotesque-Regular', sans-serif;
   transform: translateY(42.3vw);
   text-align: center;
 }
