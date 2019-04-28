@@ -5,12 +5,6 @@
   box-sizing:border-box;
 }
 @font-face {
-    font-family: SportingGrotesque-Regular;
-    src: url("type/SportingGrotesque-Regular.otf") format("opentype");
-    font-family: SportingGrotesque-Bold;
-    src: url("type/SportingGrotesque-Bold.otf") format("opentype");
-}
-@font-face {
     font-family: happy-times-at-the-ikob;
     src: url("type/happy-times-at-the-ikob.otf") format("opentype");
 }
@@ -132,7 +126,7 @@
 .allworks{
   font-family: 'GTFGoodSansTRIAL-Regular', sans-serif;
   font-size: 3vw;
-  line-height: 3.5vw;
+  line-height: 4.5vw;
   transform: translateY(-7vw);
 }
 .allworks a{
