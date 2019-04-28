@@ -1,0 +1,231 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+@font-face {
+    font-family: happy-times-at-the-ikob;
+    src: url("type/happy-times-at-the-ikob.otf") format("opentype");
+}
+@font-face {
+    font-family: happy-times-at-the-ikob;
+    font-style: italic;
+    src: url("type/happy-times-at-the-ikob_italic.otf") format("opentype");
+}
+
+@media screen {
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.col-0 {width: 4.16%;}
+[class*="col-"] {
+    float: left;
+    padding: 1.5%;
+    /*border: 1px dashed rgba(255,0,0,0.3);*/
+    height:100%;
+    /*display: inline-block;*/
+}
+
+.happytimes{
+  font-family: 'happy-times-at-the-ikob', serif;
+}
+
+/* .topbar */
+.topbar{
+  width: 100%;
+  position: fixed;
+  height: 4.4vw;
+  display: inline-block;
+  background-color: white;
+  z-index: 10;
+}
+
+.topbar a{
+  font-size: 1.5vw;
+  text-decoration: none;
+  color:black;
+}
+#smile{
+  margin-right: 2.5vw;
+  transform: translateX(1.5vw);
+  height: 2vw;
+  float: left;
+}
+#HAITONG{
+  font-family: 'GTFGoodSansTRIAL-Regular', sans-serif;
+  padding-left: 0;
+}
+.info-text a{
+  font-family: 'GTFGoodSansTRIAL-Regular', sans-serif;
+}
+
+#CONTACT{
+  margin-left: 10vw;
+}
+
+.line{
+  position: fixed;
+  height: 2vw;
+  border-bottom:1.5px solid black;
+  transform: translateY(2.5vw);
+  width: 100%;
+}
+
+#back{
+  font-family: 'GTFGoodSansTRIAL-Regular', sans-serif;
+  font-size: 1.5vw;
+  text-decoration: underline;
+  position: fixed;
+  z-index: 100;
+  transform: translateY(5vw);
+  margin-left: 4vw;
+}
+#back a{
+  color: black;
+}
+
+
+
+/* content */
+
+.content{
+  position: absolute;
+  margin-left: 5.5vw;
+  transform: translateY(9vw);
+}
+.textopening{
+  width: 35vw;
+  display: inline-block;
+  vertical-align: top;
+  transform: translateY(4vw);
+  margin-bottom: 10vw;
+}
+.workname{
+  font-family: 'GTFGoodSansTRIAL-Regular', sans-serif;
+  font-size: 3.5vw;
+  line-height: 4.5vw;
+  transform: translateY(-1.4vw);
+}
+.workintro{
+  font-family: 'GTFGoodSansTRIAL-Thin', sans-serif;
+  font-size: 4vw;
+  margin-top: 4vw;
+}
+.secinfo{
+  width: 35vw;
+  font-size: 1.5vw;
+  margin-top: 1vw;
+}
+.picopening{
+  display: inline-block;
+  width: 25vw;
+  transform: translateY(2.6vw);
+  margin-left: 8vw;
+}
+.picopening img{
+  height: 36.5vw;
+}
+.textdetail{
+  width: 60vw;
+  font-size: 2.5vw;
+  margin-left: 4vw;
+  line-height: 3.3vw;
+  font-family: 'happy-times-at-the-ikob', serif;
+}
+
+.contentpic{
+  margin-top: 4vw;
+  height: 41vw;
+}
+.textdetail-writing{
+  width: 60vw;
+  font-size: 2vw;
+  margin-left: 7vw;
+  line-height: 3vw;
+  font-family: 'happy-times-at-the-ikob', serif;
+}
+.textdetail-writing sup{
+  font-size: 1vw;
+  font-family: 'happy-times-at-the-ikob', serif;
+}
+.textdetail-writing a{
+  color: blue;
+  font-style: italic;
+  text-decoration: none;
+}
+.textdetail-writing a:hover{
+  text-decoration: underline;
+}
+
+.contentpic-n{
+  margin-right: .5vw;
+  margin-top: 3vw;
+  height: 20vw;
+}
+.footnote{
+  transform: translateY(-1vw);
+  font-size: 1.2vw;
+  margin-bottom: 1.5vw;
+}
+.footnotes{
+  transform: translateY(1.5vw);
+  font-size: 1.2vw;
+  line-height: 1.5vw;
+  margin-bottom: 1.5vw;
+}
+
+body {
+  height: 94vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+
+
+@media screen and (max-width: 500px){
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+[class*="col-"] {
+    display: inline-block;
+}
+.tags{
+  width: 13%;
+  position: fixed;
+  margin-top: 6.5%;
+  padding-top: 0;
+  border: none;
+}
+
+.line2{
+  position: fixed;
+  height: .1%;
+  border-bottom:none;
+  transform: translateY(30vw);
+  margin-left: -1.5vw;
+  width: 13%;
+}
+}
