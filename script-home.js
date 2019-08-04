@@ -85,6 +85,24 @@ $("#work12").mouseout(function(){
 $("#work12").click(function(){
   $("#construction").toggle();
 });
+$("#work13").mouseover(function(){
+  $(this).css("opacity" , ".80")
+});
+$("#work13").mouseout(function(){
+  $(this).css("opacity" , "1")
+});
+$("#work0000").mouseover(function(){
+  $(this).css("opacity" , ".80")
+});
+$("#work0000").mouseout(function(){
+  $(this).css("opacity" , "1")
+});
+$("#work000").mouseover(function(){
+  $(this).css("opacity" , ".80")
+});
+$("#work000").mouseout(function(){
+  $(this).css("opacity" , "1")
+});
 });
 
 

@@ -131,12 +131,14 @@
   margin-right: 5vw;
 }
 .experienceinfo a{
-  font-style: italic;
   color: blue;
 }
 .experienceinfo a:hover{
   font-style: italic;
   color: black;
+}
+.experiencedate{
+  transform: translateY(.8vw);
 }
 
 
