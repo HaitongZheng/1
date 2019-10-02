@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing:border-box;
+  background-color: black;
+  color:white;
 }
 
 @font-face {
@@ -47,14 +49,13 @@
   position: fixed;
   height: 4.4vw;
   display: inline-block;
-  background-color: white;
   z-index: 10;
 }
 
 .topbar a{
   font-size: 1.5vw;
   text-decoration: none;
-  color:black;
+  color:white;
 }
 #smile{
   margin-right: 2.5vw;
@@ -77,22 +78,9 @@
 .line{
   position: fixed;
   height: 2vw;
-  border-bottom:1.5px solid black;
+  border-bottom:1.5px solid white;
   transform: translateY(2.5vw);
   width: 100%;
-}
-
-#back{
-  font-family: 'GTFGoodSansTRIAL-Regular', sans-serif;
-  font-size: 1.5vw;
-  text-decoration: underline;
-  position: fixed;
-  z-index: 100;
-  transform: translateY(5vw);
-  margin-left: 4vw;
-}
-#back a{
-  color: black;
 }
 
 
@@ -143,11 +131,7 @@
   font-family: 'happy-times-at-the-ikob', serif;
 }
 .textdetail a{
-  color: blue;
   font-style: italic;
-  text-decoration: none;
-}
-.textdetail a:hover{
   text-decoration: underline;
 }
 .contentpic{
@@ -164,17 +148,16 @@
 .footnote{
   transform: translateY(-2vw);
   font-size: 1.2vw;
-}
-#websitegif{
-  transform: translateY(-4vw);
-
+  color:#808080;
 }
 
 #videop{
   margin-top: 3vw;
 }
-a{
+a:hover{
   color: blue;
+  text-decoration: none;
+  cursor: pointer;
 }
 #arrowdown{
   width:2vw;

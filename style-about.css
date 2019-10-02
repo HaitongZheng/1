@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing:border-box;
+  background-color: black;
+  color: white;
 }
 @font-face {
     font-family: happy-times-at-the-ikob;
@@ -51,14 +53,12 @@
   position: fixed;
   height: 4.4vw;
   display: inline-block;
-  background-color: white;
   z-index: 10;
 }
 
 .topbar a{
   font-size: 1.5vw;
   text-decoration: none;
-  color:black;
 }
 #smile{
   margin-right: 2.5vw;
@@ -81,7 +81,7 @@
 .line{
   position: fixed;
   height: 2vw;
-  border-bottom:1.5px solid black;
+  border-bottom:1.5px solid white;
   transform: translateY(2.5vw);
   width: 100%;
 }
@@ -106,7 +106,7 @@
   margin-right: 5vw;
 }
 #generalinfo-img img{
-  width: 15vw;
+  width: 20vw;
 }
 #hello{
   font-size: 7vw;
@@ -131,11 +131,10 @@
   margin-right: 5vw;
 }
 .experienceinfo a{
-  color: blue;
+  color: white;
 }
 .experienceinfo a:hover{
-  font-style: italic;
-  color: black;
+  color: #33ffff;
 }
 .experiencedate{
   transform: translateY(.8vw);

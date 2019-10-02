@@ -85,19 +85,6 @@
   width: 100%;
 }
 
-#back{
-  font-family: 'GTFGoodSansTRIAL-Regular', sans-serif;
-  font-size: 1.5vw;
-  text-decoration: underline;
-  position: fixed;
-  z-index: 100;
-  transform: translateY(5vw);
-  margin-left: 4vw;
-}
-#back a{
-  color: black;
-}
-
 
 /* content */
 
@@ -146,11 +133,13 @@
   font-family: 'happy-times-at-the-ikob', serif;
 }
 .textdetail a{
-  color: blue;
+  font-style: italic;
+  color: black;
 }
 
 .textdetail a:hover{
   text-decoration: none;
+  color: blue;
 }
 
 .contentpic{

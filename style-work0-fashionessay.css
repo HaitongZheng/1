@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing:border-box;
+
 }
 
 @font-face {
@@ -82,21 +83,6 @@
   width: 100%;
 }
 
-#back{
-  font-family: 'GTFGoodSansTRIAL-Regular', sans-serif;
-  font-size: 1.5vw;
-  text-decoration: underline;
-  position: fixed;
-  z-index: 100;
-  transform: translateY(5vw);
-  margin-left: 4vw;
-}
-#back a{
-  color: black;
-}
-
-
-
 /* content */
 
 .content{
@@ -160,12 +146,13 @@
   font-family: 'happy-times-at-the-ikob', serif;
 }
 .textdetail-writing a{
-  color: blue;
+  color: black;
   font-style: italic;
-  text-decoration: none;
+  text-decoration: underline;
 }
 .textdetail-writing a:hover{
-  text-decoration: underline;
+  text-decoration: none;
+  color: blue;
 }
 
 .contentpic-n{
@@ -177,6 +164,7 @@
   transform: translateY(-1vw);
   font-size: 1.2vw;
   margin-bottom: 1.5vw;
+  color:#808080;
 }
 .footnotes{
   transform: translateY(1.5vw);
